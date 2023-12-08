@@ -6,7 +6,8 @@ that represent if a social media comment is controversial or not. The given comm
 are classified by these determined features.
 
 # Experimental Setup
-
+In the following the process for getting to the final result will be explained. To try the 
+code yourself you would need to apply for the full DeTox-dataset and place it at `detox/DeTox-Dataset_complete.sqlite3`.
 
 # Acknowledgements
 The dataset used in this thesis is the [Detox](https://github.com/hdaSprachtechnologie/detox)-dataset 
