@@ -9,6 +9,20 @@ are classified by these determined features.
 In the following the process for getting to the final result will be explained. To try the 
 code yourself you would need to apply for the full DeTox-dataset and place it at `detox/DeTox-Dataset_complete.sqlite3`.
 
+## 01: Modify data structure
+In a first step the given data-structure was transformed into a format appropriate for the use case.
+For each comment that had a conversation-id assigned the next two comment-texts of the conversation are each added 
+as a property to the comment. This is done to have a better overview of the conversation and to be able to evaluate
+if the reactions to a comment are of a different opinion or not. The resulting data-structure is saved as a CSV-file.
+The available columns in the end are:
+- id
+- c_id
+- c_text
+- date
+- conv_id
+- reaction1
+- reaction2
+
 # Acknowledgements
 The dataset used in this thesis is the [Detox](https://github.com/hdaSprachtechnologie/detox)-dataset 
 which was presented in Demus et al. (2022, pp. 143–153). 
