@@ -15,7 +15,6 @@ For each comment that had a conversation-id assigned the next two comment-texts 
 as a property to the comment. This is done to have a better overview of the conversation and to be able to evaluate
 if the reactions to a comment are of a different opinion or not. The resulting data-structure is saved as a CSV-file.
 The available columns in the end are:
-- id
 - c_id
 - c_text
 - date
