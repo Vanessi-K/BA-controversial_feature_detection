@@ -22,6 +22,16 @@ The available columns in the end are:
 - reaction1
 - reaction2
 
+## 02: Pre-processing annotated comments
+The annotated comments are modified to be easier to work with in a machine learning model. 
+The text of the main-comment as well as the reactions where modified.
+The modifications where:
+- Removing all mentions (strings starting with "@")
+- Removing links (starts with "http")
+- Removing all line-breaks and duplicated white-spaces
+- Removing occurrences of character codes (like "&amp;")
+
+
 # Acknowledgements
 The dataset used in this thesis is the [Detox](https://github.com/hdaSprachtechnologie/detox)-dataset 
 which was presented in Demus et al. (2022, pp. 143–153). 
