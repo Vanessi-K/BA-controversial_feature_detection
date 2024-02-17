@@ -1,5 +1,5 @@
 .idea
 detox/DeTox-Dataset_complete.sqlite3
-/01_comments_with_immediate_conversations-random.csv
+/dataset/01_comments_with_immediate_conversations-random.csv
 /model/best_model.pth
 /model/checkpoint.pth
