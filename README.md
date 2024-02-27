@@ -56,6 +56,8 @@ The fine-tuning is performed with the `transformers`-library and _PyTorch_.
      - A linear layer
      - A sigmoid layer
 6. The model is trained and evaluated. During the training process various metrics are logged and saved. The best model is saved.
+   - The loss-function is weighting the classes, as the dataset is imbalanced. More weight is given to the classes in minority.
+     Without this weighting the model would predict the majority class for every comment and ignore any classification on the minority classes.
 7. The best model is loaded from disk and evaluated on the test set.
 8. The results of the final-test set are saved in a CSV-file.
 
